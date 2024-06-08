@@ -1,0 +1,11 @@
+footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+}
+
+footer .container p {
+    color: #a7abad;
+}

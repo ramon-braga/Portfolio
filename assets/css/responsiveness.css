@@ -1,0 +1,71 @@
+@media (max-width: 1150px) {
+    .container {
+        max-width: calc(100vw - 50px);
+    }
+}
+
+@media (max-width: 768px) {
+    main .projects-area {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about-me{
+        flex-direction: column;
+    }
+
+    .empty-area{
+        display: flex;
+        flex-direction: column;
+        order: -1;
+        margin-bottom: 50px;
+    }
+
+    .mobile_role{
+        display: block;
+    }
+
+}
+
+@media (max-width: 700px) {
+    main .about {
+        flex: 2;
+    }
+}
+
+@media (max-width: 600px) {
+    main .studies-area {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 540px) {
+    header .head-menu ul {
+        display: none;
+    }
+
+    header .menu-mobile {
+        display: flex;
+    }
+
+    main .empty-area {
+        display: none;
+    }
+
+    main .role {
+        margin-bottom: 25px;
+    }
+
+    .about-title h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 425px) {
+    main .projects-area {
+        grid-template-columns: 1fr;
+    }
+
+    main .container:first-child {
+        padding: 20px 10px;
+    }
+}

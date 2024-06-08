@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: inherit;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #48535c;
+    border: 1px solid #8d9197;
+}
+
+.button:hover {
+    background-color: #373c42;
+
+}
+
+.button:active {
+    opacity: 80%;
+}
